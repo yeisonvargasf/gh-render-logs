@@ -20,6 +20,6 @@ jobs:
         env:
           COLUMNS: 80
           LINES: 25
-        run: python3 -c "import click; click.secho('Hello World without whitespace', fg='green'); click.secho('  Hello World with styled whitespace', fg='green'); click.echo('  ' + click.style('Hello World with non-styled whitespace', fg='green'))"
+        run: python3 main.py
 
 
